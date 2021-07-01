@@ -11,10 +11,10 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
+    
     <!-- --- custom css ---- -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Weather Page</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>About Page</title>
 
 </head>
 <body>
@@ -25,7 +25,7 @@
             <div class="col-md-10 col-12 mx-auto">
                 <!-- NavBar Start -->
                 <nav class="navbar navbar-expand-md navbar-dark">
-                    <a class="navbar-brand" href="index.html"><i class="far fa-snowflake"></i> Weather App <i class="far fa-snowflake"></i></a>
+                    <a class="navbar-brand" href="../index.html"><i class="far fa-snowflake"></i> Weather App <i class="far fa-snowflake"></i></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item active">
                                 <a class="nav-link" href="weather.html">Weather</a>
@@ -54,26 +54,17 @@
         <div class="row">
             <div class="col-md-10 col-12 mx-auto">
                 <div class="row">
-                    <div class="col-md-10 col-12 mx-auto main_content-box">
-                        <div class="main_content">
-                            <form class="temp_form">
-                                <input type="text" id="cityName" placeholder="Enter Your City Name" autocomplete="off">
-                                <input type="submit" value="search" id="submitBtn">
-                            </form>
-                        </div>
-                        <div class="tempInformation">
-                            <div class="top_layer">
-                                <p class="day" id="dayName">Tuesday</p>
-                                <p class="today_data" id="cdate">13 OCT</p>
-                            </div>
-                            <div class="main_layer">
-                                <p id="city_name">Get Output Here</p>
-                                <div class="middle_layer data_hide">
-                                    <p id="temp"><span id="temp_real_val">0</span><sup>o</sup>C</p>
-                                    <p id="temp_status"><i class="fa fa-cloud" aria-hidden="true"></i></p>
-                                </div>
-                            </div>
-                        </div>
+                    <!-- right side div -->
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                        <figure>
+                            <img src="../assets/images/mypic.jpg" alt="Uzair" class="w-100 img-resp" title="Uzair Ali">
+                        </figure>
+                    </div>
+                    <!-- left side div -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p class="para">Welcome to weather app</p>
+                        <h1 class="title">I Am A <span class="txt_clr">Mern Stack Developer</span> Entrepreneur And Freelancer</h1>
+                        <button><a href="https://www.facebook.com/uzair.9898" target="_blank">About me</a></button>
                     </div>
                 </div>
             </div>
@@ -94,6 +85,6 @@
      <!-- Latest compiled JavaScript -->
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- --- custom js --- -->
-    <script src="./assets/js/main.js"></script>
+    <!-- <script src="./assets/js/main.js"></script> -->
 </body>
 </html>
